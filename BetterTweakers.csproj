@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="htmlagilitypack" Version="1.11.46" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Webscraper\WebscraperClassLibrary.csproj" />
+  </ItemGroup>
+
+</Project>
